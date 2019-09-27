@@ -4,18 +4,102 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="/Css.css">
-    <title>Title</title>
+    <link rel="stylesheet" href="/C.css">
+    <title>Page Layout</title>
+    <style>
+        .head1 {
+            font-size:40px;
+            color:rebeccapurple;
+            font-weight:bold;
+        }
+        .head2 {
+            font-size:17px;
+            margin-left:10px;
+            margin-bottom:15px;
+            font-weight:bold;
+        }
+        body {
+            margin: 0 auto;
+            background-position:center;
+            background-size: contain;
+        }
+
+        .menu {
+            position: sticky;
+            top: 0;
+            background-color: #009900;
+            padding:10px 0px 10px 0px;
+            color:white;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        .menu a {
+            float: left;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        .menu-log {
+            right: auto;
+            float: right;
+        }
+        footer {
+            width: 100%;
+            bottom: 0px;
+            background-color: #000;
+            color: #fff;
+            position: absolute;
+            padding-top:0px;
+            padding-bottom:0px;
+            text-align:center;
+            font-size:15px;
+            font-weight:bold;
+        }
+        .body_sec {
+            margin-left:20px;
+        }
+    </style>
 </head>
 <body>
 <div class="topnav">
     <a class="active" href="/page1">Home</a>
-    <a href="/page2">page2</a>
-    <a href="/page3">page3</a>
-    <a href="/page4">page4</a>
-    <a href="/page5">page5</a>
-    <a href="/page6">page6</a>
+    <a href="/page2">About MC Bootcamp</a>
+
 </div>
+<!-- Header Section -->
+<header>
+    <div class="head1">GitHub Blog</div>
+    <div class="head2">By Michael Scott</div>
+</header>
+
+
+<!-- Body section -->
+<div class = "body_sec">
+    <section id="Content">
+        <h3>Why i choose to use Github</h3>
+        <div> <p>A few years ago when I was down on my luck i had to declare bankruptcy. The majority of my knowledge of computers came from Wikipedia. Wikipedia is the best thing ever.  Anyone in the world can write anything they want about any subject. know your are getting the best possible information.
+        I looked up Github on Wikipedia when i was learning about computer programming and immediately knew i needed to learn how to navigate Github.
+        did i learn it easiley? no. Guess what, I have flaws. What are they? Oh i dont know. i sing in the shower. sometimes
+        spend too much time volunteering. occasionally ill hit somebody with my car. so sue me. Are there downsides to Github? of course.  am i going to tell you about them? no.  if a patient has cancer, you dont tell them</p></div>
+        <h3>HTML/CSS/Bootstrap </h3>
+        <div>Sometimes I'll start a sentence and I don't even know where it's going. I just hope I find it along the way.</div>
+    </section>
+    <br/>
+</div>
+<div class = "body_sec">
+    <section id="Information">
+        <h3>How i Manage</h3>
+        <div>Theres nothing on the internet that you cant learn from my book posted below.</div>
+        <div><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1520276396l/39003820._SY475_.jpg" style="width:100px;height:200px;"> </div>
+    </section>
+</div>
+
+<!-- Footer Section -->
+<footer>follow me on social media: <div> <a href="https://www.facebook.com/"><img src="https://image.flaticon.com/icons/png/512/124/124010.png" style="width:50px; height:50px" title="facebook" alt="Facebook"></a> </div><br>
+    <div> <a href="https://www.instagram.com/"><img src="http://pluspng.com/img-png/instagram-png-instagram-png-logo-1455.png" style="width:50px; height:50px" title="instagram" alt="instagram"></a> </div> </footer>
+
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>

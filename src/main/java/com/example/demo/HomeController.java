@@ -39,4 +39,16 @@ public class HomeController {
     public String profile6(){
         return "page6";
     }
+    @RequestMapping("/page7")
+    public String profile7(){
+        return "page7";
+    }
+    @RequestMapping("/page8")
+    public String profile8(){
+        return "page8";
+    }
+    @RequestMapping("/page9")
+    public String profile9(){
+        return "page9";
+    }
 }

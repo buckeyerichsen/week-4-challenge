@@ -4,18 +4,132 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="/Css.css">
+    <link rel="stylesheet" href="/C.css">
     <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Add a gray background color with some padding */
+        body {
+            font-family: Arial;
+            padding: 20px;
+            background: #f1f1f1;
+        }
+
+        /* Header/Blog Title */
+        .header {
+            padding: 30px;
+            font-size: 40px;
+            text-align: center;
+            background: white;
+        }
+
+        /* Create two unequal columns that floats next to each other */
+        /* Left column */
+        .leftcolumn {
+            float: left;
+            width: 75%;
+        }
+
+        /* Right column */
+        .rightcolumn {
+            float: left;
+            width: 25%;
+            padding-left: 20px;
+        }
+
+        /* Fake image */
+        .fakeimg {
+            background-color: #aaa;
+            width: 100%;
+            padding: 20px;
+        }
+
+        /* Add a card effect for articles */
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Footer */
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background: #ddd;
+            margin-top: 20px;
+        }
+
+        /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 800px) {
+            .leftcolumn, .rightcolumn {
+                width: 100%;
+                padding: 0;
+            }
+        }
+    </style>
 </head>
 <body>
 <div class="topnav">
     <a class="active" href="/page1">Home</a>
-    <a href="/page2">page2</a>
-    <a href="/page3">page3</a>
-    <a href="/page4">page4</a>
-    <a href="/page5">page5</a>
-    <a href="/page6">page6</a>
+    <a href="/page2">About MC Bootcamp</a>
+
 </div>
+
+<div class="header">
+    <h2>Pam Beasleys blog</h2>
+</div>
+
+<div class="row">
+    <div class="leftcolumn">
+        <div class="card">
+            <h2>Program Design and algorithms</h2>
+            <h5>my 2 cents, Dec 7, 2017</h5>
+            <p>Program desing is quite fun for a receptionist like myself.  i usually spend most of my time at work zoning
+            out or trying to fix Michaels mistakes so i generally have a decent amount of free time.</p>
+            <p>Program desing is cool</p>
+        </div>
+        <div class="card">
+            <h2>Github</h2>
+            <h5>my 2 cents, Sep 2, 2017</h5>
+
+            <p>Trying to explain github to Michael went well at first until he finished all my sentences with "thats what she said".
+            i eventually just told michael that we had to stop becasue the computer was becoming self aware.
+            and thats my experience with github.</p>
+
+        </div>
+    </div>
+    <div class="rightcolumn">
+        <div class="card">
+            <h2>About Me</h2>
+            <div>  <img src="https://www.lifeandstylemag.com/wp-content/uploads/2019/02/Jenna-Fischer-Best-Quotes-The-Office-Promo.jpg"  style="width:300px;height:200px;"> </div>
+            <div><p>Pam Beasley
+            Receptionist for Dunder Mifflin
+            Quirky yet motivated</p></div>
+        </div>
+        <div class="card">
+            <h3>Follow me on social Media</h3>
+            <div> <a href="https://www.facebook.com/"><img src="https://image.flaticon.com/icons/png/512/124/124010.png" style="width:50px; height:50px" title="facebook" alt="Facebook"></a> </div><br>
+            <div> <a href="https://www.instagram.com/"><img src="http://pluspng.com/img-png/instagram-png-instagram-png-logo-1455.png" style="width:50px; height:50px" title="instagram" alt="instagram"></a> </div><br>
+
+        </div>
+        <div class="card">
+            <h3>I Need help</h3>
+
+        </div>
+    </div>
+</div>
+
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>

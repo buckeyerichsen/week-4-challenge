@@ -4,19 +4,101 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="/Css.css">
-    <title>Title</title>
+    <link rel="stylesheet" href="/C.css">
+    <title>Page Layout</title>
+    <style>
+        .head1 {
+            font-size:40px;
+            color:rebeccapurple;
+            font-weight:bold;
+        }
+        .head2 {
+            font-size:17px;
+            margin-left:10px;
+            margin-bottom:15px;
+            font-weight:bold;
+        }
+        body {
+            margin: 0 auto;
+            background-position:center;
+            background-size: contain;
+        }
+
+        .menu {
+            position: sticky;
+            top: 0;
+            background-color: #009900;
+            padding:10px 0px 10px 0px;
+            color:white;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        .menu a {
+            float: left;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        .menu-log {
+            right: auto;
+            float: right;
+        }
+        footer {
+            width: 100%;
+            bottom: 0px;
+            background-color: #000;
+            color: #fff;
+            position: absolute;
+            padding-top:20px;
+            padding-bottom:50px;
+            text-align:center;
+            font-size:30px;
+            font-weight:bold;
+        }
+        .body_sec {
+            margin-left:20px;
+        }
+    </style>
 </head>
 <body>
 <div class="topnav">
     <a class="active" href="/page1">Home</a>
-    <a href="/page2">page2</a>
-    <a href="/page3">page3</a>
-    <a href="/page4">page4</a>
-    <a href="/page5">page5</a>
-    <a href="/page6">page6</a>
+    <a href="/page2">About MC Bootcamp</a>
+
+</div>
+<!-- Header Section -->
+<header>
+    <div class="head1">Montgomery College Java Bootcamp</div>
+    <div class="head2">A cutting edge learning experience</div>
+</header>
+
+
+<!-- Body section -->
+<div class = "body_sec">
+    <section id="Content">
+        <h3>What is the program?</h3>
+        <div> <p>The Java Web Developer Boot Camp is an 8 hour a day (9 am - 5 pm, M-F) 8-week,
+            immersive software engineering program funded by the Department of Labor.
+            This course aims to increase the number of skilled software developers in this country.
+            We do this by accepting qualified candidates who cannot afford the cost of a coding boot camp.
+            If accepted into the program all fees will be covered by the program.</p></div>
+
+    </section>
+    <br/>
+</div>
+<div class = "body_sec">
+    <section id="Information">
+        <h3>What will you learn?</h3>
+        <div>The Java Web Development Bootcamp takes you from your first java program to developing a web application. This course will give you a fast start on your career so you can take it to the next level. The course will teach you by forcing you to write over 130 java applications, including 5 major web applications. Programming challenges will keep you on your toes.
+
+            You'll learn to create web pages. You'll use frameworks and stored procedures. You'll connect to a database using the Java Persistence API(JPA) and Hibernate, and most importantly, all assignments are submitted through git, so you will learn to develop using best practices in class, to make it easy to contribute value when you are on the job.</div>
+    </section>
 </div>
 
+<!-- Footer Section -->
+<footer>Americas Grant Program Affiliate</footer>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
